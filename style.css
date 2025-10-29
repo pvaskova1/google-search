@@ -27,6 +27,9 @@ header a {
     top: 15px;
     right: 25px;
 }
+header a:hover {
+    text-decoration: underline;
+}
 
 main {
     display: flex;

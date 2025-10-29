@@ -6,18 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vyhledávání Google</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-pVnQ7aEo4x0Afz8hzGR2qFeXZpVNxPoAqZ7lGfksE1B0S+e4g5lQW5AGkL4JqYtT5sHPm9BtL+RlJ0QK2p7Xpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <h1>Google</h1>
-    <header>
-        <a href="images.html">Images</a>
-        <a href="advanced.html">Rozšířené Vyhledávání</a>
+    <header class="toplinks">
+        <nav>
+            <a href="images.html">Obrázky</a>
+            <a href="advanced.html">Rozšířené vyhledávání</a>
+        </nav>
     </header>
-    <main>
+
+    <main class="center">
+        <h1 class="google-title">
+            Google
+        </h1>
+
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="search-box">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+                <button type="submit" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
         </form>
     </main>
 </body>

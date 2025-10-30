@@ -13,7 +13,13 @@ h1 {
     font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+h2{
+    margin: 0;
+    padding: 0;
+    margin-left: 300px;
+    font-size: 20px;
+    color: blue;
+}
 header {
     position: absolute;
     top: 15px;
